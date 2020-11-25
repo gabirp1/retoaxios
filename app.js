@@ -33,7 +33,7 @@ button.addEventListener('click', () => {
     }).catch(err => console.log(err))
 })
 
-const button = document.getElementById('button')
+let button = document.getElementById('button')
 
 //res = response = respuesta
 /* button.addEventListener('click', () => {
